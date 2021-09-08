@@ -1,0 +1,47 @@
+.title{
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper{
+    background: rgb(88, 94, 65);
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    height: 100%;
+    z-index: 10000000;
+    
+}
+
+.opacity0{
+    opacity: 0;
+}
+
+.opacity1{
+    opacity: 1;
+}
+
+.main{
+    position: relative;
+}
+
+.grid{
+    display: grid;
+    grid-template: 1fr / 1fr 1fr;
+    justify-items: center;
+    gap: 20px;
+}
+
+/* button:hover{
+    background: rgb(148, 147, 71);
+}
+
+button{
+    transition: 0.5s;
+    height: 40px;
+    border: none;
+    background: rgb(65, 70, 38);
+    border-radius: 10px;
+    box-shadow: 3px -1px 4px rgb(57, 61, 42);
+} */

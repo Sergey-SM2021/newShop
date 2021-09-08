@@ -1,0 +1,11 @@
+.img__item{
+    width: 140px;
+    height: auto;
+}
+
+.name{
+    font-weight: 600;
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+}

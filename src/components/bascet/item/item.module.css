@@ -1,0 +1,23 @@
+.img__inner {
+    width: 400px;
+}
+
+.title {
+    font-size  : 24px;
+    font-weight: 600;
+}
+
+.img__box {}
+
+.price {
+    font-size  : 21px;
+    font-weight: 500;
+}
+
+.main{
+    margin: 35px 0px;
+}
+
+.btn{
+    width: 80px;
+}
