@@ -13,6 +13,7 @@ const Item : FC<item> = (props) => {
     }
 
     return(<div  className={Class.main}>
+        <div>{props.name}</div>
         <div className={Class.img}>
             <img className={Class.img__item} src={props.img} />
         </div>
