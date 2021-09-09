@@ -1,3 +1,6 @@
+/// измененния ы
+
+
 import { FC } from "react"
 import { useDispatch } from "react-redux"
 import Class from './item.module.css'
