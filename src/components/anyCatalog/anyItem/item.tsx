@@ -10,7 +10,6 @@ const Item : FC<item> = (props) => {
     const onMyBTNClick = () => {
         d(addItemToBuscet({...props}))
         message.success('This is a success message');
-        alert()
     }
 
     return(<div  className={Class.main}>
